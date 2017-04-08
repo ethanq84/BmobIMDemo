@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainTabBar">
+            <connections>
+                <outlet property="contactTabbarItem" destination="bZy-Yh-kZP" id="ZcU-ya-8c0"/>
+                <outlet property="recentTabbarItem" destination="fak-hF-iBF" id="dX4-Ml-i0g"/>
+                <outlet property="settingTabbarItem" destination="nOR-JY-8SU" id="ebQ-Il-xfc"/>
+                <outlet property="tabBar" destination="Pw8-22-dA7" id="TcH-PG-xTI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBar contentMode="scaleToFill" id="Pw8-22-dA7">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <items>
+                <tabBarItem title="会话" image="tab_icon1" selectedImage="tab_icon1_" id="fak-hF-iBF"/>
+                <tabBarItem title="联系人" image="tab_icon2" selectedImage="tab_icon2_" id="bZy-Yh-kZP"/>
+                <tabBarItem title="设置" image="tab_icon3" selectedImage="tab_icon3_" id="nOR-JY-8SU"/>
+            </items>
+            <color key="barTintColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="426" y="495.5"/>
+        </tabBar>
+    </objects>
+    <resources>
+        <image name="tab_icon1" width="23" height="23"/>
+        <image name="tab_icon1_" width="23" height="23"/>
+        <image name="tab_icon2" width="23" height="23"/>
+        <image name="tab_icon2_" width="23" height="23"/>
+        <image name="tab_icon3" width="23" height="23"/>
+        <image name="tab_icon3_" width="23" height="23"/>
+    </resources>
+</document>
